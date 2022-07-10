@@ -42,9 +42,7 @@ type Image = {
 }
 
 function cn(...classes: string[]) {
-  console.log("classes", classes)
   const toReturn = classes.filter(Boolean).join(' ');
-  console.log("to return", toReturn)
   return toReturn;
 }
 
